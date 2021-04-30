@@ -1,0 +1,86 @@
+.navbar {
+  background-color: rgb(230, 233, 245) !important;
+  z-index: 999;
+}
+.navbar li.nav-item {
+  padding: 0 17px;
+}
+.navbar a.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(15, 15, 15, 0.7) !important;
+  text-transform: uppercase;
+
+  /* box-shadow: ;  */
+}
+.navbar a.nav-link.active,
+.navbar a.nav-link:hover {
+  color: rgb(34, 203, 203) !important;
+}
+form {
+  color: red !important;
+}
+
+.formControl {
+  position: relative;
+}
+
+.formControl .fa-check {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 4px;
+  font-size: 25px;
+  color: rgb(42, 204, 42);
+}
+
+.formControl .fa-exclamation {
+  visibility: hidden;
+  color: crimson;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  font-size: 20px;
+}
+
+.formControl small {
+  color: crimson;
+  visibility: hidden;
+}
+
+.formControl.success .fa-check {
+  visibility: visible;
+}
+
+.formControl.success small {
+  visibility: visible;
+  color: green;
+}
+
+.formControl.success input {
+  border: 2px solid green;
+}
+
+.formControl.error .fa-exclamation {
+  visibility: visible;
+}
+
+.formControl.error small {
+  visibility: visible;
+}
+
+.formControl input:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: grey;
+}
+
+.formControl.error input {
+  border: 3px solid red;
+}
+
+#eye {
+  position: absolute;
+  top: 45px;
+  right: 32px;
+}

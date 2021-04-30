@@ -1,0 +1,126 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: rgb(230, 233, 245) !important;
+  z-index: 999;
+}
+.navbar li.nav-item {
+  padding: 0 17px;
+}
+.navbar a.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(15, 15, 15, 0.7) !important;
+  text-transform: uppercase;
+
+  /* box-shadow: ;  */
+}
+.navbar a.nav-link.active,
+.navbar a.nav-link:hover {
+  color: rgb(34, 203, 203) !important;
+}
+
+/* carousel start  */
+
+.carousel-inner {
+  max-height: 420px;
+}
+
+.carousel-indicators li {
+  height: 24px;
+  width: 24px;
+  /* background-color: rgb(34, 203, 203); */
+  margin: 0 15px;
+  border-radius: 50%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 10%;
+}
+.carousel-caption .col-md-6 {
+  background-color: rgb(48, 42, 42, 0.6) !important;
+  border-radius: 25px !important;
+}
+
+/* carousel end  */
+
+/* social start  */
+
+#social-sticky-top ul {
+  list-style-type: none;
+}
+
+#social-sticky-top .jumbotron {
+  min-height: 90px !important;
+}
+
+/* about  */
+#about img {
+  max-height: 100px;
+}
+
+/* fixed bg  */
+
+.fixed-bg {
+  background-image: url(img/imac.jpg);
+  min-height: 500px;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#portfolio img {
+  height: 300px;
+}
+div.jumbo {
+  position: sticky !important;
+  top: 0;
+}
+
+/* media quriess  */
+
+@media (max-width: 575.98px) {
+  #about p.scnd {
+    margin-top: -35px;
+  }
+  #about a.btn {
+    margin-top: -20px;
+    padding: 2px 4px !important;
+  }
+  #about img {
+    margin-top: 40px;
+  }
+  #services h1 {
+    font-size: 35px;
+  }
+  #services a {
+    margin-top: -10px;
+    padding: 2px 4px !important;
+  }
+  #services img {
+    margin-top: 10px;
+  }
+  .jumbotron .rsp h4 {
+    font-size: 20px !important;
+  }
+
+  #portfolio .port-col {
+    margin-top: 45px;
+  }
+  #portfolio a.btn {
+    padding: 2px 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  #portfolio .col-three {
+    margin: 55px 0;
+  }
+}

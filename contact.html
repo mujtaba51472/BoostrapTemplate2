@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+       <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+
+       <title>Contact</title>
+       <link rel="stylesheet" href="contact.css">
+       <link rel="stylesheet" href="style.css">
+       <link href="fontawesome/css/all.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+       <nav class="navbar navbar-expand-md navbar-light bg-light">
+              <div class="container">
+                     <a href="" class="navbar-brand"><img src="img/mujo.png" alt="" class="img-fluid w-50 "></a>
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myMenu">
+                            <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="myMenu">
+                            <ul class="navbar-nav mx-auto">
+                                   <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                                   <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                                   <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                                   <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                                   <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                            </ul>
+                     </div>
+              </div>
+
+       </nav>
+       <div class="container bg-light" id="contact">
+              <form action="" class="p-3">
+                     <div class="mb-3    formControl">
+                            <label for="username" class="form-label">User Name</label>
+                            <input type="text" class="form-control" value="" id="username"
+                                   placeholder="Enter Your Name">
+                            <i class="fas fa-check"></i>
+                            <i class="fas fa-exclamation"></i>
+                            <small>error message</small>
+                     </div>
+
+                     <!-- email start  -->
+                     <div class="formControl">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" id="email" value="" placeholder="Enter your email"
+                                   class="form-control">
+                            <i class="fas fa-check"></i>
+                            <i class="fas fa-exclamation"></i>
+                            <small>error message</small>
+                     </div>
+
+                     <!-- password  -->
+                     <div class="formControl">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" name="password" id="password" value=""
+                                   placeholder="Enter your password" class="form-control">
+                            <i class="fas fa-check"></i>
+                            <i class="fas fa-exclamation"></i>
+                            <small>error message</small>
+                            <i class="fas fa-eye " id="eye" onclick="showPass()" title="show password"></i>
+                     </div>
+                     <div class="formControl">
+                            <label for="password2" class="form-label">Confirm Password</label>
+                            <input type="password" name="password2" id="password2" value=""
+                                   placeholder="re enter your password" class="form-control">
+                            <i class="fas fa-check"></i>
+                            <i class="fas fa-exclamation"></i>
+                            <small>error message</small>
+                            <i class="fas fa-eye " id="eye" onclick="showPass2()" title="show password"></i>
+
+                     </div>
+                     <div class="row">
+                            <div class="col-12">
+                                   <button type="submit" class="btn btn-danger my-2 w-100">Submit</button>
+
+                            </div>
+
+                     </div>
+
+
+              </form>
+       </div>
+       <!-- footer start -->
+       <footer>
+              <div class="container-fluid bg-dark my-5">
+                     <div class="row text-center justify-content-center text-light">
+                            <div class="col-md-9">
+                                   <img src="img/mujo.png" alt="" class="w-25 pt-4 pb-3 img-fluid rounded-circle">
+                                   <p>Built with HTML ,CSS3 and Bootstrap 4 awesome design </p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                   <hr class="bg-white w-50 mt-4">
+                                   <strong>Contact info</strong>
+                                   <hr class="bg-white w-50 mt-4">
+                                   <p>mujtaba51472@gmail.com</p>
+                                   <p>Ciity:Lahore ,Pakistan</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                   <hr class="bg-white w-50 mt-4">
+                                   <strong>Our Hours</strong>
+                                   <hr class="bg-white w-50 mt-4">
+                                   <p>Monday:9am-5pm</p>
+                                   <p>Sunday & Saturday:Closed</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                   <hr class="bg-white w-50 mt-4">
+                                   <strong>Our Services</strong>
+                                   <hr class="bg-white w-50 mt-4">
+                                   <p>Bootstrap, CSS3,HTML5 JavaScript</p>
+                            </div>
+
+                     </div>
+              </div>
+       </footer>
+
+       <!-- Optional JavaScript -->
+       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+              integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+              crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+              integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+              crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+              integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+              crossorigin="anonymous"></script>
+       <script src="contact.js"></script>
+
+</body>
+
+</html>
